@@ -1,0 +1,93 @@
+.coin {
+    /* position: relative;  */
+    width: 70px;
+    height: 70px;
+    
+
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+
+    /* float: left; */
+    /* margin:0 auto; */
+    /* position:relative; */
+    /* display: inline-block; */
+    /* margin-left: 2px; */
+    /* padding-left: 2px; */
+    border-radius: 100%;
+    /* vertical-align: middle; */
+    /* top: 0; left: 0; bottom: 0; right: 0; */
+    /* margin: auto; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+  }
+
+.coin.Red{
+  background-color: #FF4136;
+  border: 2px solid lightcoral;
+}
+
+.coin.Yellow{
+  background-color: darkgoldenrod;
+  border: 2px solid yellow;
+}
+
+
+
+/* 
+  position:relative;
+    width:80px; height:80px;
+    margin:0 auto;
+    overflow:hidden;
+    display: inline-block; */
+  
+  .coin.border-outer {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coin.coin.border-outer.Red {
+    border: 5px dotted lightcoral;
+  }
+  .coin.coin.border-outer.Yellow {
+    border: 5px dotted yellow;
+  }
+  
+  .coin.border-inner1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coin.border-inner1.Red {
+    border: 2px solid lightcoral;
+  }
+
+  .coin.border-inner1.Yellow {
+    border: 2px solid yellow;
+  }
+  
+  .coin.border-inner2 {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+  }
+
+  .coin.border-inner2.Red {
+    border: 2px solid lightcoral;
+  }
+
+  .coin.border-inner2.Yellow {
+    border: 2px solid yellow;
+  }
+
+  

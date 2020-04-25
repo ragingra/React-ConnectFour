@@ -1,0 +1,14 @@
+.board {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 574px;
+    height: 560px;
+  }
+
+.row {
+    /* background-color: brown; */
+    height: 80px;
+  }
